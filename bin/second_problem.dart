@@ -22,7 +22,7 @@ void main() {
   }
 
 
-  print("홀짝을 판별할 숫자를 입력해 주십시오.");
+  print("홀짝을 판별할 숫자를 입력해 주십시오..");
   int num = int.parse(stdin.readLineSync()!);
 
   if (num % 2 == 0) {
